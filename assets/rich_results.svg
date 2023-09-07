@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Yellow round/Rich Results</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Breakpoints" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.09-SC-Marketing-BP---Updated-copy-2.9.18" transform="translate(-16.000000, -3225.000000)">
+            <g id="Group-14" transform="translate(0.000000, 2665.000000)">
+                <g id="Group" transform="translate(16.000000, 560.000000)">
+                    <g id="Yellow-round/Rich-Results">
+                        <g id="Group-10">
+                            <rect id="Rectangle-4" fill="#FBBC04" fill-rule="nonzero" x="0" y="0" width="40" height="40" rx="20"></rect>
+                            <g id="Group" transform="translate(10.000000, 9.166667)" fill="#FFFFFF" fill-rule="nonzero">
+                                <polygon id="Shape" points="9.98888889 18.3777778 1.8 12.0111111 0 13.4111111 10 21.1888889 20 13.4111111 18.1888889 12"></polygon>
+                                <path d="M10,15.5555556 L18.1777778,9.18888889 L20,7.77777778 L10,0 L0,7.77777778 L1.81111111,9.18888889 L10,15.5555556 Z M10,2.81111111 L16.3777778,7.77777778 L10,12.7444444 L3.62222222,7.77777778 L10,2.81111111 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
