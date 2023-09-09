@@ -5,19 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Search Console</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <!-- header -->
     <header class="flex border-b-[1.5px] border-slate-300 py-4 px-7 w-full">
-        <div class="flex gap-2 justify-center items-center">
+        <div class="flex items-center justify-center gap-2">
             <img src="./assets/google-logo.png" alt="google-logo" height="28px" width="80px">
-            <span class="text-2xl text-slate-600 font-normal -mt-2">Search Console</span>
+            <span class="-mt-2 text-2xl font-normal text-slate-600">Search Console</span>
         </div>
         <div></div>
     </header>
 
     <!-- Hero Section -->
-    <div class="flex justify-between py-20 border-b-[1.5px] border-slate-300 px-72 items-center">
+    <div class="flex justify-between py-9 border-b-[1.5px] border-slate-300 px-72 items-center">
         <div class="flex flex-col gap-10">
             <div class="text-6xl text-slate-800 leading-[4rem]">Improve your <br> performance on <br> Google Search</div>
             <div class="text-2xl text-slate-800">Search Console tools and reports help you <br> measure your site's Search traffic and <br> performance, fix issues, and make your site <br> shine in Google Search results</div>
@@ -75,69 +76,108 @@
     <!-- Section-04 -->
     <div class="py-10 border-b-[1.5px] border-slate-300 px-80 items-center bg-[#FAFAFA]">
         <div class="flex flex-col gap-3">
-            <p class="text-slate-800 text-3xl">Search Console Training</p>
+            <p class="text-3xl text-slate-800">Search Console Training</p>
             <p class="text-lg">Learn how to optimize your search appearance on Google and <br> increase organic traffic to your website</p>
         </div>
-        <div class="flex gap-2 mt-10 items-center justify-start">
-            <!-- <div>
-                <iframe width="300" height="200" src="https://www.youtube.com/watch?v=ONr5Z7VhNFI&list=PLKoqnv2vTMUOnQn-lNDfT38X9gA_CHxTo&index=2" class="rounded"></iframe>
+        <div class="flex items-center justify-start gap-5 mt-10">
+            <div>
+                <img src="./assets/video_thumbnail/01.jpg" alt="01" width="300px">
             </div>
             <div>
-                <iframe width="300" height="200" src="https://www.youtube.com/watch?v=N4PmE3LysUM&list=PLKoqnv2vTMUOnQn-lNDfT38X9gA_CHxTo&index=9" class="rounded"></iframe>
+                <img src="./assets/video_thumbnail/02.jpg" alt="02" width="300px">
             </div>
             <div>
-                <iframe width="300" height="200" src="https://www.youtube.com/watch?v=wTwnFcWUM3k&list=PLKoqnv2vTMUOnQn-lNDfT38X9gA_CHxTo&index=7" class="rounded"></iframe>
+                <img src="./assets/video_thumbnail/03.jpg" alt="03" width="300px">
             </div>
             <div>
-                <iframe width="300" height="200" src="https://www.youtube.com/watch?v=Pe_-TkdbXN0&list=PLKoqnv2vTMUOnQn-lNDfT38X9gA_CHxTo&index=6" class="rounded"></iframe>
-            </div> -->
+                <img src="./assets/video_thumbnail/04.jpg" alt="04" width="300px">
+            </div>
         </div>
-        <div class="text-center mt-10 border-blue-400 border">More Videos</div>
+        <div class="flex justify-center text-center cursor-pointer">
+            <div class="px-5 py-1 mt-10 font-semibold text-center text-blue-500 border rounded-md w-36 border-slate-300">More Videos</div>
+        </div>
+        
     </div>
 
     <!-- Section-05 -->
-    <div class="py-10 border-b-[1.5px] border-slate-300 px-80 items-center bg-[#FAFAFA]">
+    <div class="py-24 border-b-[1.5px] border-slate-300 px-80 items-center bg-[#FAFAFA]">
         <div class="flex flex-col gap-3">
-            <p class="text-slate-800 text-3xl">Optimize and enhance your site:</p>
+            <p class="text-3xl text-slate-800">Optimize and enhance your site:</p>
         </div>
-        <div class="flex gap-2 mt-10 items-center justify-start">
-            <div>
+        <div class="flex items-center justify-start gap-5 mt-24">
+            <div class="flex flex-col gap-7 w-[33.3%]">
                 <div><img src="./assets/amp.svg" alt="amp"></div>
-                <div>AMP</div>
-                <div>Monitor, test, and track your AMP pages with Search Console tools and reports.</div>
-                <div>Learn more</div>
+                <div class="text-xl font-semibold">AMP</div>
+                <div class="text-[1.075rem] text-slate-800">Monitor, test, and track your AMP pages with <br> Search Console tools and reports.</div>
+                <div class="-mt-2 text-[.975rem] text-blue-700">Learn more</div>
             </div>
-            <div>
+            <div class="flex flex-col gap-7 w-[33.3%]">
                 <div><img src="./assets/mobile.svg" alt="amp"></div>
-                <div>AMP</div>
-                <div>Monitor, test, and track your AMP pages with Search Console tools and reports.</div>
-                <div>Learn more</div>
+                <div class="text-xl font-semibold">Mobile Usability</div>
+                <div class="text-[1.075rem] text-slate-800">Test and improve your site’s mobile usability with customized reports.</div>
+                <div class="-mt-2 text-blue-700 text-[.975rem]">Learn more</div>
             </div>
-            <div>
+            <div class="flex flex-col gap-7 w-[33.3%]">
                 <div><img src="./assets/rich_results.svg" alt="amp"></div>
-                <div>AMP</div>
-                <div>Monitor, test, and track your AMP pages with Search Console tools and reports.</div>
-                <div>Learn more</div>
+                <div class="text-xl font-semibold">AMP</div>
+                <div class="text-[1.075rem] text-slate-800">Your recipes, jobs, or other structured data can appear as rich results on Google Search. <br> Monitor and improve them using Search Console reports.</div>
+                <div class="-mt-2 text-blue-700 text-[.975rem]">Learn more</div>
             </div>
         </div>
     </div>
 
     <!-- Section-06 -->
-    <div class="py-32 border-b-[1.5px] border-slate-300 px-80 items-center bg-[#FAFAFA] text-center">
-        <p class="text-slate-800 text-3xl">Make your site shine in Google Search results.</p>
-        <p class="">Go to Google Search Console</p>
+    <div class="py-24 px-80 items-center bg-[#FAFAFA] text-center">
+        <p class="text-3xl text-slate-800">Make your site shine in Google Search results.</p>
+        <div class="flex items-center justify-center gap-1 mt-9">
+            <p class="text-base text-blue-600 ">Go to Google Search Console</p>
+            <i class='text-3xl text-blue-700 bx bx-right-arrow-alt'></i>
+        </div>
+        
     </div>
 
     <!-- Footer -->
-    <div class="bg-[#E8EAED] py-32 border-t-[1.5px] border-slate-300 px-80 items-center">
-         <div></div>
-         <div></div>
-         <div class="flex gap-4 border-b-[1.5px] border-slate-300">
-            <a href="#">Help</a>
-            <a href="#">Google</a>
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
+    <div class="bg-[#E8EAED] py-8 px-80 items-center">
+         <div class="flex items-center gap-5 mb-8">
+            <p class="font-semibold text-[16px]">Follow us on:</p>
+            <div class="flex gap-5">
+                <i class='text-2xl bx bxl-twitter text-slate-600'></i>
+                <i class='text-2xl bx bxl-google text-slate-600'></i>
+                <i class='text-2xl bx bxl-blogger text-slate-600'></i>
+                <i class='text-2xl bx bxl-youtube text-slate-600'></i>
+            </div>
          </div>
+         <div class="flex w-full mx-auto gap-28 border-y-[1.5px] border-slate-400 py-6">
+            <div class="flex flex-col gap-4">
+                <p class="text-base text-slate-800">Webmaster resources</p>
+                <a href="#" class="text-[15px] text-slate-800">Help Center</a>
+                <a href="#" class="text-[15px] text-slate-800">Help Forum  </a>
+                <a href="#" class="text-[15px] text-slate-800">Webmaster Academy</a>
+            </div>
+            <div class="flex flex-col gap-4">
+                <p class="text-base text-slate-800">Business essentials</p>
+                <a href="#" class="text-[15px] text-slate-800">Google Business Solutions</a>
+                <a href="#" class="text-[15px] text-slate-800">Google Ads</a>
+                <a href="#" class="text-[15px] text-slate-800">Digital Garage</a>
+            </div>
+            <div class="flex flex-col gap-4">
+                <p class="text-base text-slate-800">Developer kit</p>
+                <a href="#" class="text-[15px] text-slate-800">Search for Developers</a>
+                <a href="#" class="text-[15px] text-slate-800">Web Fundamentals</a>
+                <a href="#" class="text-[15px] text-slate-800">App Indexing</a>
+            </div>
+            <div class="flex flex-col gap-4">
+                <p class="text-base text-slate-800">Related products</p>
+                <a href="#" class="text-[15px] text-slate-800">Google Analytics</a>
+                <a href="#" class="text-[15px] text-slate-800">G Suite</a>
+            </div>
+            </div>
+            <div class="flex gap-8 mt-10">
+            <a href="#" class="text-[14.5px] font-semibold text-slate-600">Help</a>
+            <a href="#" class="text-[14.5px] font-semibold text-slate-600">Google</a>
+            <a href="#" class="text-[14.5px] font-semibold text-slate-600">Privacy</a>
+            <a href="#" class="text-[14.5px] font-semibold  text-slate-600">Terms</a>
+            </div>
     </div>
 </body>
 </html>
